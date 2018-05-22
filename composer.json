@@ -1,5 +1,5 @@
 {
-    "name": "adamwathan/bootforms",
+    "name": "dezio/bootforms",
     "description": "Just a Formbuilder with some Bootstrap specific conveniences. Remembers old input, retrieves error messages and handles all your boilerplate Bootstrap markup automatically.",
     "authors": [
         {
@@ -13,8 +13,9 @@
         "adamwathan/form": "^0.9.0"
     },
     "require-dev": {
+        "roave/security-advisories": "dev-master",
         "phpunit/phpunit": "3.7.*",
-        "mockery/mockery": "0.9.*",
+        "mockery/mockery": "0.9.*"
     },
     "autoload": {
         "psr-0": {
