@@ -22,5 +22,16 @@
             "AdamWathan\\BootForms": "src/"
         }
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AdamWathan\\BootForms\\BootFormsServiceProvider"
+            ],
+            "aliases": {
+                "BootForm": "AdamWathan\\BootForms\\Facades\\BootForm"
+            }
+        }
+    }
+
 }
